@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="Gracias por visitar mi perfil">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#EC4899"/></linearGradient></defs>
+  <path fill="url(#g)" opacity=".25">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0 70 C200 40 400 100 600 70 S1000 40 1200 70 V110 H0Z;M0 70 C200 100 400 40 600 70 S1000 100 1200 70 V110 H0Z;M0 70 C200 40 400 100 600 70 S1000 40 1200 70 V110 H0Z"/>
+  </path>
+  <path fill="url(#g)" opacity=".55">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="M0 85 C250 65 450 105 600 85 S950 65 1200 85 V110 H0Z;M0 85 C250 105 450 65 600 85 S950 105 1200 85 V110 H0Z;M0 85 C250 65 450 105 600 85 S950 65 1200 85 V110 H0Z"/>
+  </path>
+  <text x="600" y="38" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#A9A3CF">gracias por pasar por aquí · seguimos construyendo</text>
+</svg>

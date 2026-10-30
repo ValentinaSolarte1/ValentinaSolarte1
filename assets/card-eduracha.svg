@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-label="EduRacha: Aprendizaje gamificado: mapa de islas, quizzes, rachas y ranking para estudiantes.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151131"/><stop offset="1" stop-color="#0C0A1D"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+    <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".06"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+    <clipPath id="c"><rect width="600" height="320" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="600" height="320" fill="url(#bg)"/>
+    <circle cx="520" cy="60" r="110" fill="#8B5CF6" opacity=".28" filter="url(#blur)"/>
+    <rect x="0" y="0" width="5" height="320" fill="url(#bar)"/>
+    <rect x="-300" y="0" width="240" height="320" fill="url(#shine)" transform="skewX(-20)">
+      <animate attributeName="x" values="-300;900;900" keyTimes="0;.35;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x=".5" y=".5" width="599" height="319" rx="22" fill="none" stroke="#2C2560"/>
+  <text x="36" y="58" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" letter-spacing="2" fill="#8B5CF6">ANDROID · EDTECH</text>
+  <text x="34" y="120" font-family="'Segoe UI', Inter, system-ui, -apple-system, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" fill="#F5F3FF" letter-spacing="-.5">EduRacha</text>
+  <text x="36" y="176" font-family="'Segoe UI', Inter, system-ui, -apple-system, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#A9A3CF">Aprendizaje gamificado: mapa de islas,</text><text x="36" y="200" font-family="'Segoe UI', Inter, system-ui, -apple-system, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#A9A3CF">quizzes, rachas y ranking para estudiantes.</text>
+  <rect x="36.0" y="240" width="71.6" height="28" rx="14" fill="#1D1740" stroke="#2C2560"/><text x="71.8" y="258.5" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C4B5FD">Kotlin</text><rect x="115.6" y="240" width="79.2" height="28" rx="14" fill="#1D1740" stroke="#2C2560"/><text x="155.2" y="258.5" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C4B5FD">Compose</text><rect x="202.8" y="240" width="86.8" height="28" rx="14" fill="#1D1740" stroke="#2C2560"/><text x="246.2" y="258.5" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C4B5FD">Retrofit</text><rect x="297.6" y="240" width="86.8" height="28" rx="14" fill="#1D1740" stroke="#2C2560"/><text x="341.0" y="258.5" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C4B5FD">Firebase</text><rect x="392.4" y="240" width="56.4" height="28" rx="14" fill="#1D1740" stroke="#2C2560"/><text x="420.6" y="258.5" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C4B5FD">Ktor</text>
+  <text x="564" y="294" text-anchor="end" font-family="'Segoe UI', Inter, system-ui, -apple-system, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#C4B5FD">Ver repositorio →</text>
+  <g>
+    <path d="M455 120 Q480 70 505 78 T555 112" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="5 6" opacity=".7">
+      <animate attributeName="stroke-dashoffset" values="0;-22" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <ellipse cx="455" cy="142" rx="30" ry="8" fill="#1D1740"/>
+    <polygon points="455,104 469,112 469,128 455,136 441,128 441,112" fill="#151131" stroke="#8B5CF6" stroke-width="2">
+      <animate attributeName="fill" values="#151131;#8B5CF6;#151131" keyTimes="0;.15;1" dur="4.5s" begin="0.0s" repeatCount="indefinite"/>
+    </polygon>
+    <ellipse cx="505" cy="100" rx="30" ry="8" fill="#1D1740"/>
+    <polygon points="505,62 519,70 519,86 505,94 491,86 491,70" fill="#151131" stroke="#8B5CF6" stroke-width="2">
+      <animate attributeName="fill" values="#151131;#8B5CF6;#151131" keyTimes="0;.15;1" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+    </polygon>
+    <ellipse cx="555" cy="134" rx="30" ry="8" fill="#1D1740"/>
+    <polygon points="555,96 569,104 569,120 555,128 541,120 541,104" fill="#151131" stroke="#8B5CF6" stroke-width="2">
+      <animate attributeName="fill" values="#151131;#8B5CF6;#151131" keyTimes="0;.15;1" dur="4.5s" begin="3.0s" repeatCount="indefinite"/>
+    </polygon></g>
+</svg>
